@@ -1,2 +1,11 @@
 @import 'tailwindcss';
 @import 'tailwindcss-primeui';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    background-color: var(--p-content-background);
+    color: var(--p-text-color);
+  }
+}
