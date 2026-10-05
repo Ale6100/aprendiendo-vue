@@ -22,6 +22,10 @@ app.use(PrimeVue, {
       },
     },
   },
+  ripple: true,
+  locale: {
+    reject: 'Cancelar',
+  },
 })
 
 app.mount('#app')
